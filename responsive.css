@@ -1,0 +1,11 @@
+@media (max-width: 575.98px){
+    .card_body {
+        width: 240px;
+    }
+    form {
+        text-align: center;
+    }
+    .card_body input {
+        width: 72%;
+    }
+}

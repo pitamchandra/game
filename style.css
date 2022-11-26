@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@500&family=Dancing+Script:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    background-color: rgb(42, 151, 240);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.playAgainBtn{
+    position: absolute;
+    top: 60%;
+}
+#playAgain{
+    transform: scalex(0);
+    transition: 1s;
+    text-decoration: none;
+    padding: 10px 30px;
+    display: block;
+}
+.card_body{
+    width: 400px;
+    background: rgb(248, 41, 103);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 4px 2px #000;
+    color: #fff;
+    text-align: center;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #fff;
+    transition: 1s;
+}
+.card_body h2{
+    position: relative;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+}
+.card_body h2::after{
+    content: '';
+    width: 200px;
+    height: 2px;
+    background: linear-gradient(#000, #030303);
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#affterClose{
+    position: absolute;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: rgb(163, 33, 1);
+    font-size: 26px;
+    text-transform: capitalize;
+    transform: scalex(0);
+    transition: 1s;
+}
+form{
+    text-align: right;
+}
+.card_body label{
+    font-size: 18px;
+    color: #1c1e4e;
+    font-weight: 500;
+    
+}
+.card_body input{
+    width: 40%;
+    outline: 0;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.playAgain{
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 0px
+}
+
